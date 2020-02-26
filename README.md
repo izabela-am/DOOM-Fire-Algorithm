@@ -1,8 +1,9 @@
 # DOOM Fire Algorithm
 #### Implementation of the DOOM Fire Algorithm in JavaScript.
 
+
+![DOOMlogo](https://i.pinimg.com/originals/c3/a6/d3/c3a6d3de3b3f95995a32361a53f311cb.jpg)
+
 :page_facing_up: Inspired by [this post](http://fabiensanglard.net/doom_fire_psx/)
 
 :fire: _This is not finished as I plan on adding the DOOM logo to the background and a playground for the user to play around with the wind force, fire height and more._
-
-![DOOMlogo](https://66.media.tumblr.com/8d862f5191e84462c45b61de2530688b/9f401549784d1139-38/s540x810/62df8ce6d8db1529315e110f1eadf57bb47a03e1.png)
