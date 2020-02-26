@@ -1,5 +1,5 @@
 <p align="center">
-  [doomlogo](https://i.pinimg.com/originals/02/4c/c7/024cc76ea32850facdd7ae9c727dad98.gif)
+  ![doomlogo](https://fontmeme.com/images/Doom-Logo.jpg)
 
 # DOOM Fire Algorithm
 #### Implementation of the DOOM Fire Algorithm in JavaScript.
