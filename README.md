@@ -5,9 +5,9 @@ Implementation of the DOOM Fire Algorithm in JavaScript. :fire:
 
 ## Tools:  
 Tech I used to make this :computer:
-* HTML
-* CSS
-* JavaScript
+* HTML;
+* CSS;
+* JavaScript.
 
 ## Learning:
 What I wanted to learned the most while making this project :books:
