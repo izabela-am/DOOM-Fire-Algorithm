@@ -1,4 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    background-color: rgb(156, 155, 155);
+    height: 380px;
+    width: 500px;
+    border-radius: 10px;
+    border: solid black
+}
+
+.buttons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 140px;
+}
+
+
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 table {
+    margin-top: -40px;
     border-collapse: collapse;
     border: 1px solid #000;
 }
@@ -27,4 +56,9 @@ td.pixel {
     top: 2px;
     right: 2px;
     color: #999;
+}
+
+#pre {
+    align-self: center;
+    justify-content: center;
 }
