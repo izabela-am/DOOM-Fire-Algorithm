@@ -1,3 +1,30 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -180px;
+    font-family: 'Abel', sans-serif;
+}
+
+footer {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 280px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -17,7 +44,6 @@
     position: absolute;
     margin-top: 140px;
 }
-
 
 body {
     background-color: gray;
