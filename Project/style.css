@@ -5,6 +5,7 @@
     position: absolute;
     margin-top: -180px;
     font-family: 'Abel', sans-serif;
+    color: white;
 }
 
 footer {
@@ -14,14 +15,15 @@ footer {
     align-items: center;
     position: absolute;
     margin-top: 280px;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -30,11 +32,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 130px;
-    background-color: rgb(156, 155, 155);
+    background-color: #dc3545;
     height: 380px;
     width: 500px;
     border-radius: 10px;
-    border: solid black
 }
 
 .buttons {
@@ -46,7 +47,7 @@ a:hover {
 }
 
 body {
-    background-color: gray;
+    background-color: #dc3545;
     display: flex;
     justify-content: center;
     align-items: center;
