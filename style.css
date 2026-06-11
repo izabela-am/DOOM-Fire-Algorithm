@@ -1,60 +1,62 @@
-.title {
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #dc3545;
+    color: white;
+    font-family: 'Abel', sans-serif;
     display: flex;
     justify-content: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    position: absolute;
-    margin-top: -180px;
-    font-family: 'Abel', sans-serif;
-    color: white;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.fire-box {
+    background-color: #dc3545;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 footer {
-    font-family: 'Abel', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-top: 280px;
-    color: white;
+    text-align: center;
 }
 
 a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
+
 a:hover {
     color: black;
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 130px;
-    background-color: #dc3545;
-    height: 380px;
-    width: 500px;
-    border-radius: 10px;
-}
-
-.buttons {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-top: 140px;
-}
-
-body {
-    background-color: #dc3545;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 table {
-    margin-top: -40px;
     border-collapse: collapse;
     border: 1px solid #000;
 }
@@ -64,10 +66,10 @@ td {
     height: 50px;
     border: 1px solid #000;
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
     font-family: monospace;
     font-size: 18px;
-    position: relative
+    position: relative;
 }
 
 td.pixel {
@@ -83,9 +85,4 @@ td.pixel {
     top: 2px;
     right: 2px;
     color: #999;
-}
-
-#pre {
-    align-self: center;
-    justify-content: center;
 }
